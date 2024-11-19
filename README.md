@@ -10,6 +10,19 @@ This is developed with .NET 8.0. Solution containes 3 projects as below. To run 
 
 All the posible test cases were written in the configure EmailOTPModule.Tests project 
 
+## Assumptions:
+
+1. The OTP is numeric and exactly 6 digits.
+2. Email validation is case-insensitive.
+3. Concurrent OTP requests override previous OTPs.
+4. Valid email shoul be there for the OTP verification.
+5. Email sending failiures handled separately. 
+
+## Test
+
+1. xUnit test for the test Project
+2. Unit Tests for Email validation ,OTP generation and validation, Timeout scenarios, Maximum attempts handling
+3. Run tests using Visual Studio Test Explorer
 ## Task
 1. To implement a secure email OTP module that can be used for our enterprise application.
 2. You are free to use any standard library from the language which you choose to implement the test.
