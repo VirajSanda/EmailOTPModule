@@ -116,6 +116,7 @@ namespace EmailOTPModule
                 string emailBody = $"Your OTP Code is {currentOTP}. The code is valid for 1 minute";
                 bool emailSent = await _emailSender.SendEmailAsync(userEmail, emailBody);
 
+                //can take the generated OTP from here for the verification
                 return emailSent ? OTPStatus.STATUS_EMAIL_OK : OTPStatus.STATUS_EMAIL_FAIL;
             }
             catch
