@@ -1,0 +1,7 @@
+﻿.vs
+EmailOTPModule/bin
+EmailOTPModule/obj
+EmailOTPModule.Console/bin
+EmailOTPModule.Console/obj
+EmailOTPModule.Tests/bin
+EmailOTPModule.Tests/obj
