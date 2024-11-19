@@ -1,5 +1,15 @@
 # Email OTP module task
 
+## Configure, Run and Test
+
+This is developed with .NET 8.0. Solution containes 3 projects as below. To run the application, set EmailOTPModule.Console as the startup project 
+
+EmailOTPModule
+EmailOTPModule.Console
+EmailOTPModule.Tests
+
+All the posible test cases were written in the configure EmailOTPModule.Tests project 
+
 ## Task
 1. To implement a secure email OTP module that can be used for our enterprise application.
 2. You are free to use any standard library from the language which you choose to implement the test.
