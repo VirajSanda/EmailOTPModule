@@ -4,9 +4,9 @@
 
 This is developed with .NET 8.0. Solution containes 3 projects as below. To run the application, set EmailOTPModule.Console as the startup project 
 
-EmailOTPModule
-EmailOTPModule.Console
-EmailOTPModule.Tests
+1. EmailOTPModule
+2. EmailOTPModule.Console
+3. EmailOTPModule.Tests
 
 All the posible test cases were written in the configure EmailOTPModule.Tests project 
 
